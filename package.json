@@ -1,6 +1,6 @@
 {
   "name": "nuxt-linkedin",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "Nuxt linkedin Insight Tag Plugin",
   "author": "Hamjs <hamknw@gmail.com>",
   "files": [
@@ -21,13 +21,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hamjs/nuxt-linkedin.git"
+    "url": "git+https://github.com/devsourceid/nuxt-linkedin.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hamjs/nuxt-linkedin/issues"
+    "url": "https://github.com/devsourceid/nuxt-linkedin/issues"
   },
-  "homepage": "https://github.com/hamjs/nuxt-linkedin#readme",
+  "homepage": "https://github.com/devsourceid/nuxt-linkedin#readme",
   "directories": {
     "lib": "lib"
   },

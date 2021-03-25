@@ -1,5 +1,8 @@
 # Nuxt Linkedin Insight Tag
 
+[![npm version][npm-version-src]][npm-version-href]
+[![npm downloads][npm-downloads-src]][npm-downloads-href]
+
 > Add Linkedin Insight Tag to your nuxt.js application.
 
 **Note:** nuxt linkedin is not enabled in dev mode.
@@ -21,7 +24,7 @@ You can find partner id on your Linkedin Business Page, under **Assets Account >
 
 ## Options
 
-### `id`
+### `linkedin_id`
 - Required
 - Linkedin Partner ID
 
@@ -29,3 +32,10 @@ You can find partner id on your Linkedin Business Page, under **Assets Account >
 ## License
 
 MIT © [Hamjs](https://hamjs.com)
+
+<!-- Badges -->
+[npm-version-src]: https://img.shields.io/npm/v/nuxt-linkedin/latest.svg
+[npm-version-href]: https://www.npmjs.com/package/nuxt-linkedin
+
+[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-linkedin.svg
+[npm-downloads-href]: https://www.npmjs.com/package/nuxt-linkedin
