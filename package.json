@@ -1,0 +1,37 @@
+{
+  "name": "nuxt-linkedin",
+  "version": "0.1.1",
+  "description": "Nuxt linkedin Insight Tag Plugin",
+  "author": "Hamjs <hamknw@gmail.com>",
+  "files": [
+    "lib"
+  ],
+  "main": "lib/index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "Vue",
+    "Nuxt",
+    "linkedin",
+    "nuxt-linkedin"
+  ],
+  "engines": {
+    "npm": ">= 4.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamjs/nuxt-linkedin.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hamjs/nuxt-linkedin/issues"
+  },
+  "homepage": "https://github.com/hamjs/nuxt-linkedin#readme",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
