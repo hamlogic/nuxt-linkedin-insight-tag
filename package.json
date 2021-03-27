@@ -1,7 +1,7 @@
 {
-  "name": "nuxt-linkedin",
-  "version": "0.1.3",
-  "description": "Nuxt linkedin Insight Tag Plugin",
+  "name": "nuxt-statcounter",
+  "version": "0.1.0",
+  "description": "StatCounter Modules for NuxtJS",
   "author": "Hamjs <hamknw@gmail.com>",
   "files": [
     "lib"
@@ -13,21 +13,22 @@
   "keywords": [
     "Vue",
     "Nuxt",
-    "linkedin",
-    "nuxt-linkedin"
+    "analytic",
+    "statcounter",
+    "nuxt-statcounter"
   ],
   "engines": {
     "npm": ">= 4.0.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/devsourceid/nuxt-linkedin.git"
+    "url": "git+https://github.com/devsourceid/nuxt-statcounter.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/devsourceid/nuxt-linkedin/issues"
+    "url": "https://github.com/devsourceid/nuxt-statcounter/issues"
   },
-  "homepage": "https://github.com/devsourceid/nuxt-linkedin#readme",
+  "homepage": "https://github.com/devsourceid/nuxt-statcounter#readme",
   "directories": {
     "lib": "lib"
   },
