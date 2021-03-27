@@ -1,37 +1,32 @@
-# Nuxt Statcounter Modules
+# Nuxt Linkedin Insight Tag
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 
-> Add StatCounter Tag to your nuxt.js application.
+> Add Linkedin Insight Tag to your nuxt.js application.
 
-**Note:** this modules is not enabled in dev mode.
+**Note:** nuxt linkedin is not enabled in dev mode.
 You can set environment variable `NODE_ENV` to `production` for testing in dev mode.
 
 ## Setup
-- Add `nuxt-statcounter` dependency using yarn or npm to your project ```npm i nuxt-statcounter``` or ```yarn install nuxt-statcounter```
-- Add `nuxt-statcounter` to `modules` section of `nuxt.config.js`
+- Add `nuxt-linkedin` dependency using yarn or npm to your project ```npm install nuxt-linkedin``` or ```yarn install nuxt-linkedin```
+- Add `nuxt-linkedin` to `modules` section of `nuxt.config.js`
 
 ```js
 modules: [
-    ['nuxt-statcounter', { 
-      sc_project: 'your-project-id', // Example 12345678
-      sc_security: 'your-security-id', // Example 1a2b3c4d
+    ['nuxt-linkedin', { 
+      linkedin_id: 'your-partner-id', 
   }],
 ]
 ```
 
-You can find project id and security id on your Statcounter project page, or after sign up process.
+You can find partner id on your Linkedin Business Page, under **Assets Account > Insight Tag**
 
 ## Options
 
-### `sc_project`
+### `linkedin_id`
 - Required
-- Statcounter Project ID
-
-### `sc_security`
-- Required
-- Statcounter Security ID
+- Linkedin Partner ID
 
 
 ## License
@@ -39,8 +34,8 @@ You can find project id and security id on your Statcounter project page, or aft
 MIT © [Hamjs](https://hamjs.com)
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/nuxt-statcounter/latest.svg
-[npm-version-href]: https://www.npmjs.com/package/nuxt-statcounter
+[npm-version-src]: https://img.shields.io/npm/v/nuxt-linkedin/latest.svg
+[npm-version-href]: https://www.npmjs.com/package/nuxt-linkedin
 
-[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-statcounter.svg
-[npm-downloads-href]: https://www.npmjs.com/package/nuxt-statcounter
+[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-linkedin.svg
+[npm-downloads-href]: https://www.npmjs.com/package/nuxt-linkedin
