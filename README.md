@@ -9,12 +9,12 @@
 You can set environment variable `NODE_ENV` to `production` for testing in dev mode.
 
 ## Setup
-- Add `nuxt-linkedin` dependency using yarn or npm to your project ```npm install nuxt-linkedin``` or ```yarn install nuxt-linkedin```
-- Add `nuxt-linkedin` to `modules` section of `nuxt.config.js`
+- Add `nuxt-linkedin-insight-tag` dependency using yarn or npm to your project ```npm install nuxt-linkedin-insight-tag``` or ```yarn install nuxt-linkedin-insight-tag```
+- Add `nuxt-linkedin-insight-tag` to `modules` section of `nuxt.config.js`
 
 ```js
 modules: [
-    ['nuxt-linkedin', { 
+    ['nuxt-linkedin-insight-tag', { 
       linkedin_id: 'your-partner-id', 
   }],
 ]
@@ -34,8 +34,8 @@ You can find partner id on your Linkedin Business Page, under **Assets Account >
 MIT © [Hamjs](https://hamjs.com)
 
 <!-- Badges -->
-[npm-version-src]: https://img.shields.io/npm/v/nuxt-linkedin/latest.svg
-[npm-version-href]: https://www.npmjs.com/package/nuxt-linkedin
+[npm-version-src]: https://img.shields.io/npm/v/nuxt-linkedin-insight-tag/latest.svg
+[npm-version-href]: https://www.npmjs.com/package/nuxt-linkedin-insight-tag
 
-[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-linkedin.svg
-[npm-downloads-href]: https://www.npmjs.com/package/nuxt-linkedin
+[npm-downloads-src]: https://img.shields.io/npm/dt/nuxt-linkedin-insight-tag.svg
+[npm-downloads-href]: https://www.npmjs.com/package/nuxt-linkedin-insight-tag
